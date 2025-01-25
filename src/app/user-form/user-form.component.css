@@ -1,4 +1,5 @@
 h2{
+    margin-top: 5px;
     text-align: center;
     font-weight: bold;
 }
@@ -15,11 +16,11 @@ button{
 }
 .container{
     display: inline-flex;
-    margin-top: 20px;
+    margin-top: 15px;
     gap: 3rem;
 }
 table{
-    margin-top: 40px;
+    margin-top: 10px;
     text-align: center;
     border-color:rgb(226, 215, 221);
     
@@ -30,7 +31,7 @@ table{
  font-size: large;
   }
   .mat-cell {
-    padding-right: 30px;
+    padding-right: 25px;
     text-align: center;
 
   }

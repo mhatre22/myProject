@@ -32,4 +32,11 @@ private localStorekey = "users"
     );
     this.saveUsers(updatedUsers);
   }
+  editUser(updatedUser: User): void {
+    let users = this.getUsers();
+    users = users.map((user:any) =>
+      user.email === updatedUser.email ? updatedUser : user
+    );
+    this.saveUsers(users);
+  }
 }

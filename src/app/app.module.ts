@@ -13,11 +13,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { RouterModule, RouterOutlet } from '@angular/router';import { UserFormComponent } from './user-form/user-form.component';
+import { UserEditComponent } from './user-edit/user-edit.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserFormComponent,
+    UserEditComponent,
  
   ],
   imports: [
