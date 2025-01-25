@@ -25,3 +25,26 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+// README.md
+/**
+# User Management System
+
+## How to Run
+
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Run `npm install` to install dependencies.
+4. Run `ng serve` to start the development server.
+5. Open your browser and navigate to `http://localhost:4200/`.
+
+## Features
+
+- List, Add, Edit, and Delete Users.
+- Role assignment (Admin/User).
+- Pagination and Sorting.
+- Search functionality.
+- Responsive design with Angular Material.
+
+## Notes
+- Data is persisted using local storage.
+*/
